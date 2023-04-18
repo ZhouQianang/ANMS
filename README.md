@@ -1,5 +1,8 @@
 # ANMS
-Asynchronous NMS for event camera.
+ANMS: Asynchronous Non-Maximum Suppression in Event Stream.
+
+## Result
+![PIC](ANMS_result.JPG)
 
 ## Setup
 TBD.
