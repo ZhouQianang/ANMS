@@ -2,8 +2,12 @@
 ANMS: Asynchronous Non-Maximum Suppression in Event Stream.
 
 ## Result
-![PIC](result1.JPG)
-![PIC](result2.JPG)
+<table>
+  <tr>
+    <td><img src="result1.JPG" alt="Image 1"></td>
+    <td><img src="result2.JPG" alt="Image 2"></td>
+  </tr>
+</table>
 <table>
   <tr>
     <td><img src="result3.JPG" alt="Image 1"></td>
