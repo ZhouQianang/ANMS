@@ -2,8 +2,8 @@
 ANMS: Asynchronous Non-Maximum Suppression in Event Stream.
 
 ## Result
-![PIC](ANMS_result.JPG)
-
+![PIC](result1.JPG)
+![PIC](result2.JPG)
 ## Setup
 TBD.
 
