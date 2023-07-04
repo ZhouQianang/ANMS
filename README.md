@@ -4,20 +4,32 @@ ANMS: Asynchronous Non-Maximum Suppression in Event Stream.
 ## Result
 ![PIC](result1.JPG)
 ![PIC](result2.JPG)
+<table>
+  <tr>
+    <td><img src="result3.jpg" alt="Image 1"></td>
+    <td><img src="result4.jpg" alt="Image 2"></td>
+  </tr>
+</table>
+
 ## Setup
 TBD.
 
 ## The DAVIS240C Dataset
-1. shapes_6dof.bag
+1. Setting the sensor size (240,180).
+2. rosbag play shapes_6dof.bag
+
+## The simulated Dataset
+Simulation by DVS-Voltmeter
+1. Setting the sensor size.
+2. Read the txt file and publish ros messages by python.
 
 ## Other Dataset
 For example, [MVSEC](https://daniilidis-group.github.io/mvsec/)
-1. Set all `sensor_width` and `sensor_height` to `346` and `260` in the code under the `include/ANMS_detector` directory.
+1. Set all `sensor_width` and `sensor_height` to `346` and `260`.
 2. When play the rosbag, change the topic of the message: 
 `rosbag play mvsec.bag /davis/left/camera_info:=/dvs/camera_info /davis/left/events:=/dvs/events /davis/left/image_raw:=/dvs/image_raw /davis/left/imu:=/dvs/imu`
 
 ## Acknowledgements
-
 
 [evHarris and evFAST](https://github.com/uzh-rpg/rpg_corner_events)
 
